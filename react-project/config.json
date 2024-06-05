@@ -1,0 +1,11 @@
+{
+  "SERVER_ADDRESS" : "nats://94.180.249.159:4233",
+  "GATE_NATS_CLIENTS_WITH_UNIT_ID_DICT" : {
+    "sub_smart_in.2023_bio" : "sub_smart_out.2023_bio",
+    "sub_smart_in.2100skdz" : "sub_smart_out.2100skdz"
+  },
+  "UNIT_ID_CREDENTIALS_DICT" : {
+    "2023_bio" : ["nats", "nats"],
+    "2100skdz" : ["nats", "nats"]
+  }
+}
